@@ -1,0 +1,21 @@
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all 200ms ease;
+    
+    img {
+        margin-right: 0.5rem;;
+        height: 3rem;
+    }
+
+    p, h3 {
+        padding: 0.2rem;
+        margin: 0;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

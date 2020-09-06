@@ -3,6 +3,7 @@ import { SharedModule } from '../shared/shared.module';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component'
 import { MyProjectsService } from '@services/my-projects.service'
+import { ContactMeService } from '@services/contact-me.service'
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CommonModule } from '@angular/common';
         ContactMeComponent
     ],
     providers: [
-        MyProjectsService
+        MyProjectsService,
+        ContactMeService
     ],
 })
 export class HomeModule { }
