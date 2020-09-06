@@ -1,0 +1,17 @@
+.dropShadow {
+    box-shadow: 0 0 1rem var(--shadow-color);
+}
+
+.borderRadius {
+    box-shadow: 0 0 1rem var(--shadow-color);
+    border-radius: 1rem;
+}
+
+.cardAnimation {
+    transition: all 250ms ease;
+
+    &:hover {
+        box-shadow: 0 0.7rem 2rem rgba(0, 0, 0, 0.2), 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+        transform: translate(0, -0.5rem);
+    }
+}

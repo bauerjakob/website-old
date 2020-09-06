@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ComponentsModule } from '../components/components.module';
+import { ComponentsModule } from '@components/components.module';
 import { HomeComponent } from './home/home.component'
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component'
 

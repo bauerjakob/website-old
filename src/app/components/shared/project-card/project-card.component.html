@@ -1,0 +1,13 @@
+<section class="dropShadow borderRadius cardAnimation">
+    <div id="firstElement">
+        <img src="{{ project.titleUrl }}" alt="title">
+    </div>
+    <div id="secondElement">
+        <div id="cardTitle">
+            <img src="{{ project.logoUrl }}" alt="logo">
+            <h4>{{ project.name }}</h4>
+        </div>
+        <p>{{ project.description }}</p>
+        <shared-basic-button [buttonText]="project.buttonText" [buttonLink]="project.buttonLink"></shared-basic-button>
+    </div>
+</section>

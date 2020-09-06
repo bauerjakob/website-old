@@ -7,8 +7,11 @@ import { HomeModule } from './home/home.module';
     imports: [
         SharedModule
     ],
-    exports: [HomeModule],
-    declarations: [],
+    exports: [
+        HomeModule
+    ],
+    declarations: [
+    ],
     providers: [],
 })
 export class ComponentsModule { }

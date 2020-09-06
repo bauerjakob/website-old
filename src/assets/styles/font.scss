@@ -48,16 +48,26 @@ h1 {
 h2 {
     font-family: roboto-500;
     font-size: 17pt;
-    padding: 1.5rem 0;
-    margin: 0 auto;
-
+    padding: 1rem 0;
+    text-align: center;    
 }
 
 h3 {
     font-family: roboto-500;
     font-size: 13pt;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
 
+}
+
+h4 {
+    font-family: roboto-500;
+    font-size: 17pt;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 p, pre {
