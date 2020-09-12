@@ -3,6 +3,7 @@ import { SharedModule } from '../shared/shared.module';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component'
 import { FooterComponent } from './footer/footer.component'
+import { HeaderComponent } from './header/header.component'
 import { MyProjectsService } from '@services/my-projects.service'
 import { ContactMeService } from '@services/contact-me.service'
 import { CommonModule } from '@angular/common';
@@ -15,11 +16,13 @@ import { RouterModule } from '@angular/router';
         RouterModule
     ],
     exports: [
+        HeaderComponent,
         MyProjectsComponent,
         ContactMeComponent,
         FooterComponent
     ],
     declarations: [
+        HeaderComponent,
         MyProjectsComponent,
         ContactMeComponent,
         FooterComponent
