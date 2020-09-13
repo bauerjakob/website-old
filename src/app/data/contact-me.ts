@@ -3,9 +3,9 @@ import { ContactMe } from "../models/contact-me";
 export const CONTACT_ME: ContactMe[] = [
     {
         platform: "EMail",
-        username: "contact@bauer-jakob.de",
+        username: "info@bauer-jakob.de",
         imageUrl: "../../../../assets/images/home/contact-me/mail.svg",
-        linkUrl: "mailto:contact@bauer-jakob.de"
+        linkUrl: "mailto:info@bauer-jakob.de"
     },
     {
         platform: "Instagram",

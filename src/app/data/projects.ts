@@ -3,9 +3,9 @@ import { Project } from '@models/project';
 export const PROJECTS : Project[] = [
     {
         name: "Reports",
-        description: "Reports is the new shit.",
-        logoUrl: "https://lh3.googleusercontent.com/WP3UScjBANpCrIqe8vd-PUphxsbkWY7J7Bg3BLsz24NAyI2da3TCXhNF43bs31qw4uw=s180-rw",
-        titleUrl: "https://lh3.googleusercontent.com/WP3UScjBANpCrIqe8vd-PUphxsbkWY7J7Bg3BLsz24NAyI2da3TCXhNF43bs31qw4uw=s180-rw",
+        description: "Use REPORTS to write reports for your apprenticeship faster and easier. You are supported by a suggestion box when writing your reports. You can export the finished daily and weekly reports to another app.",
+        logoUrl: "../../../../assets/images/home/my-projects/reports/icon.png",
+        titleUrl: "../../../../assets/images/home/my-projects/reports/banner.png",
         buttonText: "Get it on GooglePlay",
         buttonLink: "https://play.google.com/store/apps/details?id=com.app.reports"
     }
