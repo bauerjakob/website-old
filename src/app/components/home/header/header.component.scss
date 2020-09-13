@@ -6,6 +6,8 @@ section {
     flex-direction: column;
     justify-content: space-evenly;
     img {
-        height: 20rem;
+        height: 40%;
+        max-width: 90%;
+        margin: 0 auto;
     }
 }

@@ -4,20 +4,20 @@ export const CONTACT_ME: ContactMe[] = [
     {
         platform: "EMail",
         username: "contact@bauer-jakob.de",
-        imageUrl: "https://image.flaticon.com/icons/svg/2052/2052757.svg",
-        linkUrl: ""
+        imageUrl: "../../../../assets/images/home/contact-me/mail.svg",
+        linkUrl: "mailto:contact@bauer-jakob.de"
     },
     {
         platform: "Instagram",
         username: "j.bauer",
-        imageUrl: "https://image.flaticon.com/icons/svg/1409/1409946.svg",
-        linkUrl: ""
+        imageUrl: "../../../../assets/images/home/contact-me/instagram.svg",
+        linkUrl: "https://www.instagram.com/jbauer.dev/"
 
     },
     {
         platform: "Twitter",
-        username: "JakobDev",
-        imageUrl: "https://image.flaticon.com/icons/svg/1409/1409937.svg",
-        linkUrl: ""
+        username: "DevJakob",
+        imageUrl: "../../../../assets/images/home/contact-me/twitter.svg",
+        linkUrl: "https://twitter.com/devjakob"
     }
 ];

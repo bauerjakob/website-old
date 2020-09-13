@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-150,-20)">
+        <g transform="matrix(1,0,0,1,50,-80)">
+            <path d="M150,109.486C150,104.247 145.753,100 140.514,100L109.486,100C104.247,100 100,104.247 100,109.486L100,140.514C100,145.753 104.247,150 109.486,150L140.514,150C145.753,150 150,145.753 150,140.514L150,109.486Z" style="fill:url(#_Linear1);"/>
+        </g>
+        <g id="Mail-Icon" serif:id="Mail Icon" transform="matrix(1.33333,0,0,1.33333,-520.999,-3591.66)">
+            <path d="M532.5,2737L511.5,2737C510.672,2737 510,2736.33 510,2735.5L510,2719.5C510,2718.67 510.672,2718 511.5,2718L532.5,2718C533.329,2718 534,2718.67 534,2719.5L534,2735.5C534,2736.33 533.329,2737 532.5,2737ZM531,2734L531,2722.43L522.731,2730.7C522.528,2730.91 522.261,2731.01 521.995,2731C521.729,2731.01 521.461,2730.91 521.258,2730.7L513,2722.44L513,2734L531,2734ZM529.561,2721L514.429,2721L521.995,2728.58L529.561,2721Z" style="fill:white;"/>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(41,41,-41,41,105,105)"><stop offset="0" style="stop-color:rgb(31,167,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,118,195);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
