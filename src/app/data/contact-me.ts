@@ -9,7 +9,7 @@ export const CONTACT_ME: ContactMe[] = [
     },
     {
         platform: "Instagram",
-        username: "j.bauer",
+        username: "jbauer.dev",
         imageUrl: "../../../../assets/images/home/contact-me/instagram.svg",
         linkUrl: "https://www.instagram.com/jbauer.dev/"
 
