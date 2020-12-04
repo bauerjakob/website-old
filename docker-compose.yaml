@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  website:
+    image: registry.gitlab.com/j.bauer/website
+    build:
+      context: .
+    ports:
+      - 8080:80
