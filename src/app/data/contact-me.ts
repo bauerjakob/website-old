@@ -16,8 +16,8 @@ export const CONTACT_ME: ContactMe[] = [
     },
     {
         platform: "Twitter",
-        username: "DevJakob",
+        username: "_jakobbauer",
         imageUrl: "../../../../assets/images/home/contact-me/twitter.svg",
-        linkUrl: "https://twitter.com/devjakob"
+        linkUrl: "https://twitter.com/_jakobbauer"
     }
 ];
