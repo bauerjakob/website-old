@@ -1,3 +1,3 @@
 # Website
 
-You can check out my at https://bauer-jakob.de/.
+You can check out my website at https://bauer-jakob.de/.
