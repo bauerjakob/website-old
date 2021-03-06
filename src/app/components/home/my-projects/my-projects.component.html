@@ -1,9 +1,17 @@
-<h2>My Projects</h2>
-<section>
-    <div class="card" data-aos="fade-up" *ngFor="let project of projects">
-        <shared-project-card [project]="project"></shared-project-card>
-    </div>
+<section id="outer">
+
+    <h2>My Projects</h2>
+    <section>
+        <div class="card" data-aos="fade-up" *ngFor="let project of projects">
+            <shared-project-card [project]="project"></shared-project-card>
+        </div>
+    </section>
+    <p id="moreProjectsLink" >
+        View more projects on <a href="https://gitlab.com/bauerjakob">GitLab</a>.
+    </p>
+    <section id="smallCards">
+        <div class="card" data-aos="fade-up" *ngFor="let project of gitlabProjects">
+            <shared-project-card-small [project]="project"></shared-project-card-small>
+        </div>
+    </section>
 </section>
-<p id="moreProjectsLink" >
-    View more projects on <a href="https://gitlab.com/bauerjakob">GitLab</a>.
-</p>

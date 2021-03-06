@@ -1,0 +1,8 @@
+<section class="dropShadow borderRadius cardAnimation">
+    <div id="cardTitle">
+        <img *ngIf="project.logoUrl" src="{{ project.logoUrl }}" alt="logo">
+        <h4>{{ project.name }}</h4>
+    </div>
+    <p *ngIf="project.description">{{project.description}}</p>
+    <shared-basic-button [buttonText]="project.buttonText" [buttonLink]="project.buttonLink"></shared-basic-button>
+</section>

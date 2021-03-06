@@ -1,6 +1,25 @@
+#outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-    margin: 4rem 0rem;
+    margin: 4rem 0;
 }
 #moreProjectsLink {
     text-align: center;
+}
+
+#smallCards {
+    max-width: 44rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        margin: 2rem 1.2rem;
+    }
 }
